@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --font_chu: 'DM Sans', sans-serif;
+    --color_1: #EFEFEF;
+    --color_font: #777980;
+    --color_2: #14191E;
+    --color_3: #F7D9C4;
+    --color_4: #31363B;
+    --color_5: #DCE8EB;
+    --color_6: #eda878;
+}
+body{
+    font-family: var(--font_chu);
+}
+a{
+    text-decoration: none;
+    color: #14191E;
+}
+ul{
+    list-style-type: none;
+    
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+    max-width: 932px;
+}
